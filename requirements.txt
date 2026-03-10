@@ -1,4 +1,4 @@
-cooler==0.9.1
+cooler==0.10.4
 pandas==2.3.3
 numpy==2.0.2
 scipy==1.13.1
