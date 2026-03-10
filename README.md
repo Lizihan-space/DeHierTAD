@@ -15,7 +15,8 @@ conda create -n DeHierTAD python=3.9 -y
 conda activate DeHierTAD
 
 # 2. Install required dependencies
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 Download the DeHierTAD.py file to your local directory.
 ## Usage
 DeHierTAD.py [-h] -c COOL_PATH -chr CHROMOSOME -r RESOLUTION [-A AREA] -o OUTPUT_FOLDER [-w WORKERS] -p
