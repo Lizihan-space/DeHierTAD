@@ -15,7 +15,7 @@ conda create -n DeHierTAD python=3.9 -y
 conda activate DeHierTAD
 
 # 2. Install required dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt```
 Download the DeHierTAD.py file to your local directory.
 ## Usage
 DeHierTAD.py [-h] -c COOL_PATH -chr CHROMOSOME -r RESOLUTION [-A AREA] -o OUTPUT_FOLDER [-w WORKERS] -p
@@ -35,4 +35,5 @@ optional arguments:
   -q, --quality        Output TAD quality scores(Optional).
   -m, --m              Calculation interval: Area/m. default=10.
   -g, --g              Second-level iteration area: Area/g. default=2.
+## Output
 The algorithm's default output includes two directories and one BED file. The directories contain data files for boundary score curves derived from the iteration layers, with each file providing bin coordinates and their corresponding boundary scores. The BED file records the chromosome number, start and end positions, X, L and id for each TAD. Additionally, users can choose to export a supplemental file for TAD quality scores, containing the chromosome number, start and end positions, L, and the TAD quality scores.
