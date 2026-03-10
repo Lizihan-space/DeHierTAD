@@ -21,7 +21,7 @@ Download the DeHierTAD.py file to your local directory.
 ## Usage
 Before running DeHierTAD, the Hi-C contact matrices must be normalized and corrected for experimental biases using the balance command from the cooler package. For more details, please refer to: [cooler balance documentation](https://cooler.readthedocs.io/en/latest/cli.html#cooler-balance).
 
-DeHierTAD.py [-h] -c COOL_PATH -chr CHROMOSOME -r RESOLUTION [-A AREA] -o OUTPUT_FOLDER [-w WORKERS] -p
+python DeHierTAD.py [-h] -c COOL_PATH -chr CHROMOSOME -r RESOLUTION [-A AREA] -o OUTPUT_FOLDER [-w WORKERS] -p
                     PROMINENCE [-q] [-m M] [-g G]
 
 optional arguments:
