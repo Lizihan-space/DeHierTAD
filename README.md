@@ -1,5 +1,5 @@
 # DeHierTAD
-DeHierTAD: A novel algorithm for decoding deeply hierarchical TADs to uncover repressive genomic units.
+DeHierTAD: A novel algorithm for decoding deeply hierarchical TADs using Hi-C data.
 ## System Requirements
 
 **Operating Systems:**
