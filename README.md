@@ -25,16 +25,16 @@ python DeHierTAD.py [-h] -c COOL_PATH -chr CHROMOSOME -r RESOLUTION [-A AREA] -o
                     PROMINENCE [-q] [-m M] [-g G]
 ```
 optional arguments:
-  -h, --help           show this help message and exit
-  -c, --COOL_PATH      Path to the cool file.
-  -chr, --CHROMOSOME   Chromosome number.
-  -r, --resolution     Resolution of the cool file.
-  -A, --Area           Hi-C data area for first-level iteration. default=1000000.
-  -o, --output_folder  Output directory.
-  -w, --workers        Number of worker threads. default=4
-  -p, --prominence     Prominence threshold.
-  -q, --quality        Output TAD quality scores(Optional).
-  -m, --m              Calculation interval: Area/m. default=10.
-  -g, --g              Second-level iteration area: Area/g. default=2.
+  -h, --help,           show this help message and exit.
+  -c, --COOL_PATH,      Path to the cool file.
+  -chr, --CHROMOSOME,   Chromosome number.
+  -r, --resolution,     Resolution of the cool file.
+  -A, --Area,           Hi-C data area for first-level iteration. default=1000000.
+  -o, --output_folder,  Output directory.
+  -w, --workers,        Number of worker threads. default=4.
+  -p, --prominence,     Prominence threshold.
+  -q, --quality,        Output TAD quality scores(Optional).
+  -m, --m,              Calculation interval: Area/m. default=10.
+  -g, --g,              Second-level iteration area: Area/g. default=2.
 ## Output
 The algorithm's default output includes two directories and one BED file. The directories contain data files for boundary score curves derived from the iteration layers, with each file providing bin coordinates and their corresponding boundary scores. The BED file records the chromosome number, start and end positions, X, L and id for each TAD. Additionally, users can choose to export a supplemental file for TAD quality scores, containing the chromosome number, start and end positions, L, and the TAD quality scores.
