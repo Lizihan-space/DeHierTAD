@@ -977,7 +977,7 @@ if __name__ == "__main__":
     
     os.makedirs(output_folder, exist_ok=True)
     global_first_TAD = None
-    functions = [partial(process_hic_dataframe, matrix_df=results)]
+    functions = [partial(process_hic_dataframe, matrix_df=results, resolution=resolution)]
     
     for idx, params in enumerate(parameter_groups):
         R1_val = params['R1']
